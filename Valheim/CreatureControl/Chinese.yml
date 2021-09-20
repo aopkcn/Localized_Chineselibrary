@@ -11,29 +11,29 @@ genderedCreatureTranslations:
 
 genderedTranslations:
   m:
-    Aggressive: 挑衅的
-    Curious: 好奇的
-    Regenerating: 重复
+    Aggressive: 狂热
+    Curious: 远眺
+    Regenerating: 重生
     Spirit: 精神
-    Summoner: 召唤者
-    Elementalist: 元素主义者
-    Mending: 重复的
+    Summoner: 暴徒
+    Elementalist: 元素使
+    Mending: 萨满
 
   f:
-    Aggressive: 侵略性
-    Curious: 好奇的
-    Regenerating: 重复
+    Aggressive: 狂热
+    Curious: 远眺
+    Regenerating: 重生
     Spirit: 精神
-    Summoner: 祈愿者
-    Elementalist: 元素主义者
-    Mending: 制定
+    Summoner: 暴徒
+    Elementalist: 元素使
+    Mending: 萨满
 
 translations:
-  Aggressive: 积极
-  Armored: 装甲
-  Curious: 好奇
+  Aggressive: 狂热
+  Armored: 强壮
+  Curious: 元素使
   Quick: 敏捷
-  Regenerating: 重复
+  Regenerating: 重生
   Splitting: 分裂
 
   Fire: 火
@@ -43,26 +43,26 @@ translations:
   Spirit: 精神
   Poison: 蛊毒
 
-  Reflective: 反思
-  Shielded: 屏蔽
-  Mending: 修补
-  Summoner: 召唤者
-  Elementalist: 元素主义者
-  Enraged: 愤怒
-  Twin: 双胞胎
+  Reflective: 反伤
+  Shielded: 免疫
+  Mending: 萨满
+  Summoner: 暴徒
+  Elementalist: 元素使
+  Enraged: 狂暴
+  Twin: 分身
 
-  CreatureSectorLevelIncrease: Les créatures proches de {player} gagnent en puissance pour venger la mort de leurs proches.
-  MinimapSectorLevel: 'Level du Secteur: {level}'
-  ConfigEditorSave: Appliquer et Sauvegarder
-  ConfigEditorApplyNoSave: Appliquer sans sauvegarder
-  ConfigEditorDiscard: Annuler et fermer
-  Edit Creature YAML config: Editer le config Creature YAML
-  Edit Item YAML config: Editer le config Item YAML
-  SummonerEikthyr: "{boss} Invocateur invoque une Brute NainGris pour l'aider"
-  SummonerElder: "{boss} Invocateur invoque un Troll pour l'aider"
-  SummonerBonemass: "{boss} Invocateur invoque {number} Draugr Elite pour l'aider"
-  SummonerModer: "{boss} Invocateur invoque {number} Drakes pour l'aider"
-  SummonerYagluth: "{boss} Invocateur invoque une Brute Gobelin pour l'aider"
+  CreatureSectorLevelIncrease: 当前 {player} 身边的生物越来越强大，为他们手下的死复仇。
+  MinimapSectorLevel: '区域等级: {level}'
+  ConfigEditorSave: 应用并保存
+  ConfigEditorApplyNoSave: 不保存应用
+  ConfigEditorDiscard: 取消和关闭
+  Edit Creature YAML config: 编辑配置生物YAML
+  Edit Item YAML config: 编辑配置项目YAML
+  SummonerEikthyr: "{boss} 召唤一个暴徒来帮助他"
+  SummonerElder: "{boss} 召唤巨魔来帮助他"
+  SummonerBonemass: "{boss} 召唤 {number} 个尸鬼精英来帮助它"
+  SummonerModer: "{boss} 召唤 {number} 个霜龙来帮助它"
+  SummonerYagluth: "{boss} 召唤一个邪恶的地精来帮助他"
 
 enumTranslations:
   Toggle:
@@ -316,7 +316,7 @@ settings:
     display: 有机率刷出 {infusionDescription} 元素生物(百分比)
     desc: 有机率刷出 {infusionDescription} 元素生物(百分比)
   Multiplier for infusion chances per star:
-    display: 每星元素注入倍增器
+    display: 每星元素注入倍数
     desc: 根据生物的星星数量，用于注入的基础机率的乘数.每一个数量的星星的机会，从左到右，逗号分隔.从0开始.默认为1.
   Chance for {affix} affix to spawn (percentage):
     display: 有机率刷出特殊 {affix} 效果的BOSS(百分比)
@@ -328,17 +328,17 @@ settings:
     display: BOSS伤害减免百分比
     desc: BOSS伤害减免百分比
   Mending healing factor:
-    display: 重复BOSS乘数
-    desc: 设置重复boss的恢复率.
+    display: 重生BOSS乘数
+    desc: 设置重生boss的恢复率.
   Number of summons for Summoners:
-    display: 召唤师召唤次数
-    desc: 为召唤师BOSS战斗过程中召唤事件的数量.
+    display: 萨满召唤次数
+    desc: 为萨满BOSS战斗过程中召唤小怪的数量.
   Elementalist damage increase (percentage):
     display: 元素BOSS元素伤害提升
     desc: 元素系BOSS附加元素伤害增加.
   Enraged damage increase (percentage):
-    display: 狂暴老板物理伤害提升
+    display: 狂暴BOSS物理伤害提升
     desc: 增加狂暴BOSS的物理伤害.
   Twin damage and health (percentage):
-    display: 双胞胎BOSS生命值和伤害值
-    desc: 双胞胎附加的生命值和伤害值
+    display: 分身BOSS生命值和伤害值
+    desc: 分身附加的生命值和伤害值
